@@ -1,0 +1,143 @@
+body {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  background-color: #1e202b !important;
+}
+input{
+  color: white;
+}
+ul{
+  list-style: none;
+}
+.bg-body-tertiary {
+  background-color: #1e202b !important;
+}
+/* navbar */
+.navbar {
+  box-sizing: border-box;
+}
+.navbar-expand-lg .navbar-nav a.nav-link {
+  color: white;
+  border-radius: 20px;
+  margin: 0 20px 0 0;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 0.4s;
+}
+.navbar-expand-lg .navbar-nav a.nav-link:hover {
+  color: #009ad8;
+  border: 2px solid #009ad8;
+}
+.para {
+  font-size: 14px;
+}
+.para + span {
+  font-size: 12px;
+}
+
+.navbar-toggler {
+  border: none;
+  padding: 20px 15px;
+  border-radius: 40px;
+  /* transition: all 0.3s; */
+  color: white;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler:hover {
+  border: 2px solid #009ad8;
+}
+.navbar-toggler:hover i {
+  color: #009ad8;
+}
+
+
+/* landing */
+
+#hero{
+  background-image: url(../assets/banner.png);
+  background-size: cover;
+  height: 50vh;
+  background-color: #1e202b !important;
+  
+}
+#hero .container{
+  position: relative;
+
+}
+#hero .container #find{
+position: absolute;
+right: 20px;
+    top: 55px;
+}
+.container > input{
+  background-color: #1e202b;
+}
+.date{
+  background-color: #2d303d;
+  color: rgb(185, 183, 183);
+}
+.box{
+  color: #bab3a9;
+}
+.box-body > span{
+  font-size: 80px;
+}
+
+.box-body{
+  background-color: #323544;
+}
+.row{
+  background-color: #323544;
+}
+.box-1{
+  background-color: rgb(45,48,61);
+}
+.box-2{
+  background-color: #323544;
+}
+.box-3{
+  background-color: #222531;
+}
+.box-4{
+  background-color: #262936;
+}
+#sub{
+  background-color: #262936;
+}
+.box-body{
+  min-height: 350px;
+}
+#weather-container{
+  padding-bottom: 50px;
+}
+.body-3{
+  background-color: #323544;
+}
+
+#subbtn{
+  position: absolute;
+  right: 6px;
+  top: 7px;
+}
+.roww{
+  background-color: #262936;
+}
+.prim{
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #1e202b;
+  transition: all 0.3 ease;
+}
+.prim:hover{
+  background-color: #009ad8;
+  color: white !important;
+  cursor: pointer;
+}
+#sub input{
+  background-color: #1e202b;
+}
